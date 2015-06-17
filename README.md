@@ -70,7 +70,7 @@ Method for manual page tracking.
 
 ### `#trackEvent(action, properties)`
 
-Method for manual event tracking. Available options:
+Method for manual event tracking.
 
 ## License
 
