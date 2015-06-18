@@ -10,6 +10,7 @@ module.exports = function() {
     global.window._kmq = global.window._kmq || [];
 
     return {
+        name: 'KISSmetrics',
 
         /**
          * KISSmetrics page-tracking implementation.

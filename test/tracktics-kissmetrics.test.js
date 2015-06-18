@@ -13,6 +13,10 @@ describe('Tracktics KISSmetrics Plugin', function() {
         subject = trackticsKiss();
     });
 
+    it('should define name', function() {
+        expect(subject.name).toBe('KISSmetrics');
+    });
+
     describe('#trackPage()', function() {
         var url;
 
